@@ -9,7 +9,7 @@ import IllustrationImg from "../../assets/illustration.png";
 
 import styles from "./styles";
 
-export default function SignIn() {
+function SignIn() {
   const navigation = useNavigation();
 
   function handleSignIn() {
@@ -40,3 +40,5 @@ export default function SignIn() {
     </Background>
   );
 }
+
+export default SignIn;
