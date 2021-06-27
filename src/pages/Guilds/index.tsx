@@ -19,6 +19,18 @@ const Guilds: React.FC<Props> = ({ handleGuildSelect }) => {
       icon: null,
       owner: true,
     },
+    {
+      id: "2",
+      name: "Magnificos",
+      icon: null,
+      owner: false,
+    },
+    {
+      id: "3",
+      name: "Maravilhosos",
+      icon: null,
+      owner: true,
+    },
   ]);
 
   return (
