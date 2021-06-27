@@ -10,14 +10,13 @@ const styles = StyleSheet.create({
   banner: {
     width: "100%",
     height: 234,
-    marginBottom: 30,
   },
 
   contentBanner: {
     flex: 1,
     paddingHorizontal: 24,
-    marginBottom: 30,
     justifyContent: "flex-end",
+    marginBottom: 30,
   },
 
   title: {
@@ -30,6 +29,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontFamily: theme.fonts.text400,
     color: theme.colors.heading,
+    lineHeight: 20,
   },
 
   members: {

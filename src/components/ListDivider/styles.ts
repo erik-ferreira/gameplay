@@ -3,12 +3,10 @@ import { theme } from "../../global/styles/theme";
 
 const styles = StyleSheet.create({
   container: {
-    width: "75%",
     height: 1,
-    backgroundColor: theme.colors.secondary40,
-    marginTop: 2,
-    marginVertical: 31,
+    width: "78%",
     alignSelf: "flex-end",
+    backgroundColor: theme.colors.secondary40,
   },
 });
 

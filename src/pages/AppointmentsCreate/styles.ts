@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     backgroundColor: theme.colors.secondary40,
     borderRadius: 8,
     borderWidth: 1,
+    borderColor: theme.colors.secondary50,
   },
 
   selectBody: {

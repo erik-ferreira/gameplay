@@ -4,6 +4,15 @@ import { theme } from "../../global/styles/theme";
 const styles = StyleSheet.create({
   container: { width: "100%", flexDirection: "row", alignSelf: "center" },
 
+  guildIconContainer: {
+    width: 64,
+    height: 68,
+    borderRadius: 8,
+    alignItems: "center",
+    justifyContent: "center",
+    marginRight: 20,
+  },
+
   content: { flex: 1 },
 
   header: {

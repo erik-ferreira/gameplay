@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     paddingHorizontal: 24,
+    marginTop: 28,
   },
 
   title: {
