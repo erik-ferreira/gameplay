@@ -1,7 +1,7 @@
 import React from "react";
 import { StatusBar } from "react-native";
 import { useFonts } from "expo-font";
-
+import { AuthProvider } from "./src/hooks/auth";
 import { Inter_400Regular, Inter_500Medium } from "@expo-google-fonts/inter";
 import {
   Rajdhani_500Medium,
@@ -31,7 +31,10 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      <Routes />
+
+      <AuthProvider>
+        <Routes />
+      </AuthProvider>
     </Background>
   );
 }
